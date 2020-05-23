@@ -177,13 +177,16 @@ span {
   padding-top: 94px;
   padding-bottom: 94px;
   width: 1200px;
-  /* outline: 5px solid paleturquoise; */
+  outline: 5px solid paleturquoise;
 }
 
 .section-team {
   margin: 0;
   padding: 0;
   display: flex;
+}
+.employee + .employee {
+  margin-left: 30px;
 }
 
 .section-workers {
@@ -205,9 +208,9 @@ span {
   padding: 0;
 }
 
-.section-team .employee :not(:last-child) {
+/* .employee :not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .img {
   margin: 0;
