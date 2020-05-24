@@ -140,7 +140,7 @@ span {
   margin-left: auto;
   margin-right: auto;
 
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .section-caption {
@@ -177,7 +177,7 @@ span {
   padding-top: 94px;
   padding-bottom: 94px;
   width: 1200px;
-  outline: 5px solid paleturquoise;
+  /* outline: 5px solid paleturquoise; */
 }
 
 .section-team {
